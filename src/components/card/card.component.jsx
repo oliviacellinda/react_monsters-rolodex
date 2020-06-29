@@ -10,7 +10,7 @@ export const Card = (props) => (
       // This is to allow us to create string containing variable by writing expressions like ${variable}
       src={`https://robohash.org/${props.monster.id}?set=set2&size=180x180`}
     />
-    <h1> {props.monster.name} </h1>
+    <h2> {props.monster.name} </h2>
     <p> {props.monster.email} </p>
   </div>
 );
